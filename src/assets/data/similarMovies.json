@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "imgUrl": "/assets/images/DSCF5957.JPG",
+        "title": "Movie 1",
+        "rate": 9.1
+    },
+    {
+        "id":2,
+        "imgUrl": "/assets/images/DSCF5729.JPG",
+        "title": "Movie 2",
+        "rate": 9.1
+    },
+    {
+        "id":3,
+        "imgUrl": "/assets/images/DSCF5597.JPG",
+        "title": "Movie 3",
+        "rate": 9.1
+    },
+    {
+        "id":4,
+        "imgUrl": "/assets/images/DSCF5613.JPG",
+        "title": "Movie 4",
+        "rate": 9.1
+    }
+]

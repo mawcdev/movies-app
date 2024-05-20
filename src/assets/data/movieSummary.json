@@ -1,0 +1,21 @@
+
+    {
+        "actors": [
+            "Star 1",
+            "Star 2",
+            "Star 3",
+            "Star 4"
+        ],
+        "genres": [
+            "Genre 1",
+            "Genre 2",
+            "Genre 3",
+            "Genre 4"
+        ],
+        "directors": [
+            "Director 1",
+            "Director 2",
+            "Director 3",
+            "Director 4"
+        ]
+    }

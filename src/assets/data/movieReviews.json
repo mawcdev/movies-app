@@ -1,0 +1,29 @@
+[
+    {
+        "id":1,
+        "header": "Review Item # 1",
+        "rate": 7,
+        "review": "Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.",
+        "author": "Review Author",
+        "useful": 100,
+        "seen": 120
+    },
+    {
+        "id":2,
+        "header": "Review Item # 2",
+        "rate": 8.4,
+        "review": "Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.",
+        "author": "Review Author",
+        "useful": 100,
+        "seen": 120
+    },
+    {
+        "id":3,
+        "header": "Review Item # 3",
+        "rate": 8.1,
+        "review": "Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.",
+        "author": "Review Author",
+        "useful": 100,
+        "seen": 120
+    }
+]

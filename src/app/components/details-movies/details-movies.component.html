@@ -1,1 +1,6 @@
-<p>details-movies works!</p>
+<figure class="figure" *ngFor="let movie of simmilarMovies">
+    <img [src]="movie.imgUrl" class="figure-img img-fluid rounded img-thumbnail" style="max-width: 150px;"
+        alt="">
+        <figcaption class="figure-caption">{{movie.title}}</figcaption>
+        <figcaption class="figure-caption"> <i class="bi bi-star"></i> <b>{{movie.rate}}/10</b></figcaption>
+</figure>

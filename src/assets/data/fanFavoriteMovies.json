@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "imgUrl": "/assets/images/DSCF5957.JPG",
+        "title": "Movie Title 1",
+        "actors": "Movie Actors",
+        "year": 2024,
+        "rate":9.5 ,
+        "trophy": 1
+    },
+    {
+        "id": 2,
+        "imgUrl": "/assets/images/DSCF5963.JPG",
+        "title": "Movie Title 2",
+        "actors": "Movie Actors",
+        "year": 2024,
+        "rate":9.5 ,
+        "trophy": 1
+    },
+    {
+        "id": 3,
+        "imgUrl": "/assets/images/DSCF5597.JPG",
+        "title": "Movie Title 3",
+        "actors": "Movie Actors",
+        "year": 2024,
+        "rate":9.5 ,
+        "trophy": 1
+    },
+    {
+        "id": 1,
+        "imgUrl": "/assets/images/DSCF5613.JPG",
+        "title": "Movie Title 4",
+        "actors": "Movie Actors",
+        "year": 2024,
+        "rate":9.5 ,
+        "trophy": 1
+    }
+]

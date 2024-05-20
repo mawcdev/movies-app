@@ -1,1 +1,95 @@
-<p>details works!</p>
+
+<h1>Movie Title</h1>
+<br>
+
+<div class="row">
+
+    <div class="col-md-6">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/X37sZWs-4Ac?si=DLgEZwxO43QEdgOa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    <div class="col-md-6">
+        <p class="lead">This is a placeholder for the movie plot</p>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">Stars</div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item" *ngFor="let actor of actors">{{actor}}</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card">
+                        <div class="card-header">Directors</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" *ngFor="let director of directors">{{director}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card">
+                        <div class="card-header">Genre</div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" *ngFor="let genre of genres">{{genre}}</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<hr>
+<br>
+
+<div class="row">
+    <h1>Actors</h1>
+    <br>
+    <div class="col-md-12 text-center">
+        <app-details-actors></app-details-actors>
+    </div>
+
+    <div class="text-center">
+        <a href="" class="btn btn-warning" [routerLink]="['/details/actors/'+movieId]">View more</a>
+    </div>
+</div>
+
+<hr>
+<br>
+
+<div class="row">
+    <h1>Reviews</h1>
+    <br>
+
+    <div class="col-md-12">
+        <app-details-reviews></app-details-reviews>
+    </div>
+
+    <div class="text-center">
+        <a href="" class="btn btn-warning" [routerLink]="['/details/reviews/'+movieId]">View more</a>
+    </div>
+</div>
+
+<hr>
+<br>
+
+<div class="row">
+    <h1>Similar Movies</h1>
+    <br>
+
+    <div class="col-md-12 text-center">
+        <app-details-movies></app-details-movies>
+
+        <div class="text-center">
+            <a href="" class="btn btn-warning" [routerLink]="['/details/movies/'+movieId]">View more</a>
+        </div>
+    </div>
+</div> 
+
+<!-- Start Nested route -->
+<!-- <router-outlet></router-outlet> -->
+<!-- End Nested route -->

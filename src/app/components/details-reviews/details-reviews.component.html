@@ -1,1 +1,20 @@
-<p>details-reviews works!</p>
+<div class="accordion accordion-flush" id="accordionFlushExample">
+    <div class="accordion-item" *ngFor="let review of movieReviews">
+      <h2 class="accordion-header">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" [attr.data-bs-target]="['#flush-collapse'] + review.id" aria-expanded="false" [attr.aria-controls]="['flush-collapse'] + review.id">
+          <i class="bi bi-star"></i><b>{{review.rate}}/10</b>&nbsp;{{review.header}}
+        </button>
+      </h2>
+      <div [id]="['flush-collapse'] + review.id" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+        <div class="accordion-body">
+            <p>{{review.review}}</p>
+           <p class="blackquote-footer">
+                {{review.author}}
+           </p>
+           <p>
+            <i>{{review.useful}} out of {{review.seen}} found this useful</i>
+           </p>
+        </div>
+      </div>
+    </div>
+  </div>

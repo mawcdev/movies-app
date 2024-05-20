@@ -1,0 +1,25 @@
+[ {
+    "id":1,
+    "imgUrl": "/assets/images/DSCF5957.JPG",
+    "name": "Jhanna",
+    "role":"As herself"
+  },
+  {
+    "id":2,
+    "imgUrl": "/assets/images/DSCF5729.JPG",
+    "name": "Marc",
+    "role":"As himself"
+  },
+  {
+    "id":3,
+    "imgUrl": "/assets/images/DSCF5597.JPG",
+    "name": "Dana",
+    "role":"As herself"
+  },
+  {
+    "id":4,
+    "imgUrl": "/assets/images/DSCF5613.JPG",
+    "name": "Ian",
+    "role":"As himself"
+  }
+]

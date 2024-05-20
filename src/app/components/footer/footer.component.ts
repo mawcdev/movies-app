@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrl: './footer.component.css'
 })
 export class FooterComponent {
-
+  companyName = "Movies App"
+  currentYear = new Date().getFullYear();
 }
